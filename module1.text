@@ -1,0 +1,40 @@
+ Q-1 What is the difference between Java and javascript?
+      Java ia an OOP programming language, and it hels to create applications that function in a virtual machine or browser, while javascript is an OOP scripting language. Also, the javascript code runs on a browser only. Java is a stand-alone  language while javascript is a not stand- alone incorporated into HTML  program for operation. Java is slightly more complex while javascript is easier in comparison.In java large amount of memory is required while memory consumption is lesser in javascript.
+
+Q-2 What is javascript ?
+     Javascript is the programming language for the web.
+     javasript  can update and change both HTML and css. 
+     Javascriptcan calculate, manipulate and validate data.
+
+Q-3 what are the data types supported by Javascript?
+    JavaScript has 8 Datatypes
+     String.
+     Number.
+     Bigint.
+     Boolean.
+     Undefined.
+     Null.
+     Symbol.
+     Object.
+
+
+Q-4 what are the scopes of a variable in javascript?
+     JavaScript variables have only two scopes. Global Variables − A global variable has global scope which means it can be defined anywhere in your JavaScript code. Local Variables − A local variable will be visible only within a function where it is defined. Function parameters are always local to that function.
+
+Q-5 What is Callback?
+     A callback function is a function that is passed as an argument to another function, to be “called back” at a later time. A function that accepts other functions as arguments is called a higher-order function, which contains the logic for when the callback function gets executed. It’s the combination of these two that allow us to extend our functionality.
+
+Q-6 What is Closure? Give an example.
+     It creates functions that can add a specific value to their argument. In the above example, the function factory creates two new functions—one that adds five to its argument, and one that adds 10. add5 and add10 both form closures. They share the same function body definition, but store different lexical environments.
+
+Q-7 What is the difference between the operators ‘==‘ & ‘===‘?
+     The == operator performs a loose equality comparison that performs type coercion if necessary to make the comparison possible. The === operator, on the other hand, performs a strict equality comparison that does not perform type coercion and requires the operands to have the same type (as well as the same value).
+
+Q-8 What is the difference between null & undefined?
+     Undefined means the variable has been declared, but its value has not been assigned. Null means an empty value or a blank value.
+
+Q-9 What would be the result of 2+5+”3″?
+     Since 2 and 5 are integers, they will be added numerically. And since 3 is a string, its concatenation will be done. So the result would be 73.  
+
+Q-10 What is the difference between Call & Apply?
+     The call() method takes arguments separately. The apply() method takes arguments as an array. The apply() method is very handy if you want to use an array instead of an argument list.

@@ -1,0 +1,31 @@
+Q-1 What is Node.js? Where can you use it?
+    Node. js is an open-source, cross-platform JavaScript runtime environment and library for running web applications outside the client's browser.Node. js is widely used for the back-end of applications, like using Express. js to build the back-end of classic web applications. Also, it is used for server-side programming and non-blocking, event-driven servers like typical websites and backend API services.
+
+Q-2 Explain callback in Node.js.
+    Node. js callbacks are a special type of function passed as an argument to another function. They're called when the function that contains the callback as an argument completes its execution, and allows the code in the callback to run in the meantime. Callbacks help us make asynchronous calls.
+
+Q-3 What are the advantages of using promises instead of callbacks?
+    Promises offer several advantages over traditional callbacks in asynchronous programming. Here are some of the main advantages of using promises:
+
+    Improved Readability: Promises provide a more readable and intuitive way of handling asynchronous operations. Instead of nested callbacks, promises allow you to chain multiple asynchronous operations together, making the code easier to understand and maintain.
+
+    Error Handling: Promises have built-in error handling mechanisms. You can attach a .catch() method to a promise chain to handle any errors that occur during the execution of the asynchronous operations. This simplifies error handling and makes it more consistent across different parts of your code.
+
+    Promise Chaining: Promises support method chaining, which allows you to perform multiple asynchronous operations sequentially without nesting callbacks. This chaining capability makes the code more streamlined and avoids the "callback hell" problem that can occur with deeply nested callbacks.
+
+Q-4 What is NPM?
+     NPM stands for "Node Package Manager." It is a package manager for JavaScript and the default package manager for the Node.js runtime environment. NPM allows developers to discover, share, and reuse JavaScript code packages/modules, which are commonly referred to as "packages" or "dependencies."
+
+Q-5 What are the modules in Node.js? Explain
+    
+    In Node.js, modules are reusable blocks of code that encapsulate related functionality and can be easily imported and used in other parts of your application. Modules help in organizing and structuring code, promoting code reuse, and keeping the codebase maintainable. There are different types of modules in Node.js, each serving a specific purpose. Let's explore them:
+
+    Core Modules:
+    Node.js comes with a set of built-in core modules that provide essential functionalities. These modules are part of the Node.js distribution and can be accessed without installing any external dependencies. Some examples of core modules include fs (file system), http (HTTP server and client), path (file path manipulation), and util (utilities for working with objects and functions). Core modules are loaded using the require() function.
+
+    Local Modules:
+    Local modules are created by developers to encapsulate a specific set of functionalities within their application. These modules can be created in separate files and directories and then imported into other parts of the application as needed. Local modules are loaded using the require() function, and the module file path must be specified relative to the current file.
+
+    Third-Party Modules:
+    Third-party modules are created by the Node.js community and are available through the npm (Node Package Manager) registry. These modules provide additional functionalities that can be easily integrated into your Node.js application. Examples of popular third-party modules include Express (web application framework), Lodash (utility functions), and MongoDB (MongoDB database driver). Third-party modules are installed using npm or yarn and can be loaded using the require() function.
+
